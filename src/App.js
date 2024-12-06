@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from "./component/common/button";
 
 function App() {
+  const handleClick = () => {
+    console.log("gets called");
+  };
   return (
     <div className="App">
-     <div>APP</div>
+      <Button title={"Click"} handleClick={() => handleClick()} type={"primary"}/>
     </div>
   );
 }
