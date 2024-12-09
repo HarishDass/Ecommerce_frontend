@@ -1,1 +1,3 @@
-export const ROUTE_CONSTANT = {};
+export const ROUTE_CONSTANT = {
+    HOME:"/red"
+};
