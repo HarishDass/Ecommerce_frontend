@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import FirstInput from "./component/common/FirstInput";
 
 function App() {
+ 
   return (
-    <div className="App">
-     <div>APP</div>
-    </div>
+   <>
+     <FirstInput></FirstInput>
+   </>
   );
 }
 
