@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Button title={"Click"} handleClick={() => handleClick()} type={"primary"}/>
-      <Radio type={"primary"} labels={labels} />
+      <Radio type={''} labels={labels} />
     </div>
   );
 }
