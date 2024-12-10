@@ -1,6 +1,6 @@
 import React from 'react';
  import { Input } from 'antd';
-import { EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';
+//import { EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';
 
 const PasswordInput = ({type}) => {
   return (
