@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "./component/common/button";
 import Radio from "./component/common/Radio";
+import Form from "./component/common/Form";
 
 function App() {
   const handleClick = () => {
@@ -41,6 +42,7 @@ function App() {
     <div className="App">
       <Button title={"Click"} handleClick={() => handleClick()} type={"primary"}/>
       <Radio items={items} disable={disable} anime={anime} foods={foods} games={games}/>
+      <Form/>
     </div>
   );
 }
