@@ -7,7 +7,7 @@ function App() {
     console.log("gets called");
   };
 
-  const lables= [
+  const labels= [
     {label: 'Naruto',  value: 'Naruto'},
     {label: 'Your Name',   value: 'Your Name'},
     {label: 'Jujutsu Kaisen', value: 'Jujutsu Kaisen'}
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Button title={"Click"} handleClick={() => handleClick()} type={"primary"}/>
-      <Radio type={"checked"} lables={lables} />
+      <Radio type={"primary"} labels={labels} />
     </div>
   );
 }
